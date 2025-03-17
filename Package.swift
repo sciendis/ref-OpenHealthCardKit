@@ -35,25 +35,22 @@ let package = Package(
             name: "NFCCardReaderProvider",
             dependencies: [
                 "HealthCardControl",
-                "HealthCardAccess",
-                "Helper",
             ]
         ),
         .target(
             name: "HealthCardControl",
             dependencies: [
                 "HealthCardAccess",
-                "Helper",
                 "OpenSSL-Swift"
             ]
         ),
         .target(
             name: "HealthCardAccess",
-            dependencies: ["CardReaderAccess", "CardReaderProviderApi", "ASN1Kit"]
+            dependencies: ["CardReaderAccess", "ASN1Kit"]
         ),
         .target(
             name: "CardReaderAccess",
-            dependencies: ["CardReaderProviderApi", "Helper"]
+            dependencies: ["CardReaderProviderApi"]
         ),    
         .target(
             name: "CardReaderProviderApi",
