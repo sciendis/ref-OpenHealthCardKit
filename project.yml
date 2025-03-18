@@ -291,6 +291,9 @@ targets:
       path: Resources/CardReaderProviderApi_Info.plist
     dependencies:
       - target: Helper_static
+    settings:
+      LIBRARY_SEARCH_PATHS: "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule"
+      SWIFT_IMPORT_PATHS: "$(BUILT_PRODUCTS_DIR))/Helper.swiftmodule"
   CardReaderAccess_static:
     type: framework
     platform: [iOS]
@@ -301,6 +304,17 @@ targets:
     dependencies:
       - target: CardReaderProviderApi_static
       - target: Helper_static
+    settings:
+      LIBRARY_SEARCH_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+        ]
+      SWIFT_IMPORT_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+        ]
   Helper_static:
     type: library
     platform: [iOS]
@@ -321,6 +335,17 @@ targets:
       - target: CardReaderProviderApi_static
       - package: ASN1Kit
     transitivelyLinkDependencies: true
+    settings:
+      LIBRARY_SEARCH_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+        ]
+      SWIFT_IMPORT_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+        ]
   HealthCardControl_static:
     type: library
     platform: [iOS]
@@ -333,6 +358,17 @@ targets:
       - target: Helper_static
       - package: OpenSSL-Swift
     transitivelyLinkDependencies: true
+    settings:
+      LIBRARY_SEARCH_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+        ]
+      SWIFT_IMPORT_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+        ]
   NFCCardReaderProvider_static:
     type: library
     platform: iOS
@@ -345,6 +381,19 @@ targets:
       - target: HealthCardControl_static
       - target: Helper_static
       - sdk: CoreNFC.framework
+    settings:
+      LIBRARY_SEARCH_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+        ]
+      SWIFT_IMPORT_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+        ]
   SciendisHealthCardKit_static:
     type: library
     platform: iOS
@@ -357,6 +406,25 @@ targets:
       - target: CardReaderAccess_static
       - target: CardReaderProviderApi_static
       - target: NFCCardReaderProvider_static
+    settings:
+      LIBRARY_SEARCH_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/NFCCardReaderProvider.swiftmodule",
+        ]
+      SWIFT_IMPORT_PATHS:
+        [
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/NFCCardReaderProvider.swiftmodule",
+        ]
 
   SciendisHealthCardKit:
     type: framework
