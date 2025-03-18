@@ -9,21 +9,6 @@ let package = Package(
         .macOS(.v12)
     ],
     products: [
-//        .library(
-//            name: "HealthCardControl",
-//            targets: ["HealthCardControl"]),
-//        .library(
-//            name: "NFCCardReaderProvider",
-//            targets: ["NFCCardReaderProvider"]),
-//        .library(
-//            name: "HealthCardAccess",
-//            targets: ["HealthCardAccess"]),
-//        .library(
-//            name: "CardReaderProviderApi",
-//            targets: ["CardReaderProviderApi"]),
-//        .library(
-//            name: "Helper",
-//            targets: ["Helper"]),
         .library(
             name:"SciendisHealthCardKit",
             type: .static,
@@ -36,34 +21,6 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
     ],
     targets: [
-//        .target(
-//            name: "NFCCardReaderProvider",
-//            dependencies: [
-//                "HealthCardControl",
-//            ]
-//        ),
-//        .target(
-//            name: "HealthCardControl",
-//            dependencies: [
-//                "HealthCardAccess",
-//                "OpenSSL-Swift"
-//            ]
-//        ),
-//        .target(
-//            name: "HealthCardAccess",
-//            dependencies: ["CardReaderAccess", "ASN1Kit"]
-//        ),
-//        .target(
-//            name: "CardReaderAccess",
-//            dependencies: ["CardReaderProviderApi"]
-//        ),    
-//        .target(
-//            name: "CardReaderProviderApi",
-//            dependencies: ["Helper"]
-//        ),
-//        .target(
-//            name: "Helper"
-//        ),
         .target(
             name: "SciendisHealthCardKit_static",
             dependencies: [
