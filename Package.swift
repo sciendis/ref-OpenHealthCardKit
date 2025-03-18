@@ -54,7 +54,7 @@ let package = Package(
         ),    
         .target(
             name: "CardReaderProviderApi",
-            dependencies: ["Helper",]
+            dependencies: ["Helper"]
         ),   
         .target(
             name: "Helper"
