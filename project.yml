@@ -56,17 +56,17 @@ packages:
     url: https://github.com/gematik/ASN1Kit
     majorVersion: 1.2.0
   OpenSSL-Swift:
-   url: https://github.com/gematik/OpenSSL-Swift
-   majorVersion: 4.2.0
+    url: https://github.com/gematik/OpenSSL-Swift
+    majorVersion: 4.2.0
   SnapshotTesting:
     url: https://github.com/pointfreeco/swift-snapshot-testing
     majorVersion: 1.10.0
   AEXML:
     url: https://github.com/tadija/AEXML
-    majorVersion: 4.6.0  
+    majorVersion: 4.6.0
   StreamReader:
     url: https://github.com/hectr/swift-stream-reader/
-    majorVersion: 0.3.0   
+    majorVersion: 0.3.0
   Gzip:
     url: https://github.com/1024jp/GzipSwift
     majorVersion: 6.0.0
@@ -131,10 +131,10 @@ targets:
           - "**/__Snapshots__/**"
     dependencies:
       - target: NFCDemo
-      - package: SnapshotTesting 
+      - package: SnapshotTesting
   CardReaderProviderApi:
     type: framework
-    platform: [iOS,macOS]
+    platform: [iOS, macOS]
     sources:
       - Sources/CardReaderProviderApi
     info:
@@ -147,7 +147,7 @@ targets:
       gatherCoverageData: true
   CardReaderAccess:
     type: framework
-    platform: [iOS,macOS]
+    platform: [iOS, macOS]
     sources:
       - Sources/CardReaderAccess
     info:
@@ -161,16 +161,16 @@ targets:
       gatherCoverageData: true
   Helper:
     type: framework
-    platform: [iOS,macOS]
+    platform: [iOS, macOS]
     sources:
       - Sources/Helper
     info:
       path: Resources/Helper_Info.plist
     scheme:
-      gatherCoverageData: true 
+      gatherCoverageData: true
   CardReaderProviderApiTests:
     type: bundle.unit-test
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/CardReaderProviderApiTests_Info.plist
     sources:
@@ -180,7 +180,7 @@ targets:
       - framework: Carthage/Build/Nimble.xcframework
   CardReaderAccessTests:
     type: bundle.unit-test
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/CardReaderAccessTests_Info.plist
     sources:
@@ -190,7 +190,7 @@ targets:
       - framework: Carthage/Build/Nimble.xcframework
   HealthCardAccess:
     type: framework
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/HealthCardAccess_Info.plist
     sources:
@@ -207,7 +207,7 @@ targets:
       gatherCoverageData: true
   HealthCardAccessTests:
     type: bundle.unit-test
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/HealthCardAccessTests_Info.plist
     sources:
@@ -219,7 +219,7 @@ targets:
       - target: Util_${platform}
   HealthCardControl:
     type: framework
-    platform: [iOS,macOS]
+    platform: [iOS, macOS]
     info:
       path: Resources/HealthCardControl_Info.plist
     sources:
@@ -236,7 +236,7 @@ targets:
   HealthCardControlTests:
     name: HealthCardControlTests_${platform}
     type: bundle.unit-test
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/HealthCardControlTests_Info.plist
     sources:
@@ -274,12 +274,101 @@ targets:
       - framework: Carthage/Build/Nimble.xcframework
   Util:
     type: framework
-    platform: [macOS,iOS]
+    platform: [macOS, iOS]
     info:
       path: Resources/Util_Info.plist
     sources:
       - Tests/Util
     dependencies:
       - sdk: Combine.framework
+
+  CardReaderProviderApi_static:
+    type: library
+    platform: [iOS]
+    sources:
+      - Sources/CardReaderProviderApi
+    info:
+      path: Resources/CardReaderProviderApi_Info.plist
+    dependencies:
+      - target: Helper_static
+  CardReaderAccess_static:
+    type: framework
+    platform: [iOS]
+    sources:
+      - Sources/CardReaderAccess
+    info:
+      path: Resources/CardReaderAccess_Info.plist
+    dependencies:
+      - target: CardReaderProviderApi_static
+      - target: Helper_static
+  Helper_static:
+    type: library
+    platform: [iOS]
+    sources:
+      - Sources/Helper
+    info:
+      path: Resources/Helper_Info.plist
+  HealthCardAccess_static:
+    type: library
+    platform: [iOS]
+    info:
+      path: Resources/HealthCardAccess_Info.plist
+    sources:
+      - Sources/HealthCardAccess
+    dependencies:
+      - sdk: Combine.framework
+      - target: CardReaderAccess_static
+      - target: CardReaderProviderApi_static
+      - package: ASN1Kit
+    transitivelyLinkDependencies: true
+  HealthCardControl_static:
+    type: library
+    platform: [iOS]
+    info:
+      path: Resources/HealthCardControl_Info.plist
+    sources:
+      - path: Sources/HealthCardControl
+    dependencies:
+      - target: HealthCardAccess_static
+      - target: Helper_static
+      - package: OpenSSL-Swift
+    transitivelyLinkDependencies: true
+  NFCCardReaderProvider_static:
+    type: library
+    platform: iOS
+    info:
+      path: Resources/NFCCardReaderProvider_Info.plist
+    sources:
+      - Sources/NFCCardReaderProvider
+    dependencies:
+      - target: HealthCardAccess_static
+      - target: HealthCardControl_static
+      - target: Helper_static
+      - sdk: CoreNFC.framework
+  SciendisHealthCardKit_static:
+    type: library
+    platform: iOS
+    sources:
+      - Sources/SciendisHealthCardKit
+    dependencies:
+      - target: HealthCardAccess_static
+      - target: HealthCardControl_static
+      - target: Helper_static
+      - target: CardReaderAccess_static
+      - target: CardReaderProviderApi_static
+      - target: NFCCardReaderProvider_static
+
+  SciendisHealthCardKit:
+    type: framework
+    platform: iOS
+    sources:
+      - Sources/SciendisHealthCardKit
+    dependencies:
+      - target: HealthCardAccess_iOS
+      - target: HealthCardControl_iOS
+      - target: Helper_iOS
+      - target: CardReaderAccess_iOS
+      - target: CardReaderProviderApi_iOS
+      - target: NFCCardReaderProvider
 
 buildImplicitDependencies: true
