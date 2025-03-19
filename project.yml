@@ -292,7 +292,7 @@ targets:
     dependencies:
       - target: Helper_static
     settings:
-      LIBRARY_SEARCH_PATHS: "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule"
+      LIBRARY_SEARCH_PATHS: "$(BUILT_PRODUCTS_DIR)/Helper_static.a"
       SWIFT_IMPORT_PATHS: "$(BUILT_PRODUCTS_DIR))/Helper.swiftmodule"
   CardReaderAccess_static:
     type: framework
@@ -307,8 +307,8 @@ targets:
     settings:
       LIBRARY_SEARCH_PATHS:
         [
-          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/Helper_static.a",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi_static.a",
         ]
       SWIFT_IMPORT_PATHS:
         [
@@ -338,8 +338,8 @@ targets:
     settings:
       LIBRARY_SEARCH_PATHS:
         [
-          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess_static.a",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi_static.a",
         ]
       SWIFT_IMPORT_PATHS:
         [
@@ -361,8 +361,8 @@ targets:
     settings:
       LIBRARY_SEARCH_PATHS:
         [
-          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess_static.a",
+          "$(BUILT_PRODUCTS_DIR)/Helper_static.a",
         ]
       SWIFT_IMPORT_PATHS:
         [
@@ -384,9 +384,9 @@ targets:
     settings:
       LIBRARY_SEARCH_PATHS:
         [
-          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl_static.a",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess_static.a",
+          "$(BUILT_PRODUCTS_DIR)/Helper_static.a",
         ]
       SWIFT_IMPORT_PATHS:
         [
@@ -409,12 +409,12 @@ targets:
     settings:
       LIBRARY_SEARCH_PATHS:
         [
-          "$(BUILT_PRODUCTS_DIR)/HealthCardControl.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/Helper.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi.swiftmodule",
-          "$(BUILT_PRODUCTS_DIR)/NFCCardReaderProvider.swiftmodule",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardControl_static.a",
+          "$(BUILT_PRODUCTS_DIR)/HealthCardAccess_static.a",
+          "$(BUILT_PRODUCTS_DIR)/Helper_static.a",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderAccess_static.a",
+          "$(BUILT_PRODUCTS_DIR)/CardReaderProviderApi_static.a",
+          "$(BUILT_PRODUCTS_DIR)/NFCCardReaderProvider_static.a",
         ]
       SWIFT_IMPORT_PATHS:
         [

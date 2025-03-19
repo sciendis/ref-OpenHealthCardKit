@@ -13,6 +13,11 @@ let package = Package(
             name:"SciendisHealthCardKit",
             type: .static,
             targets: ["SciendisHealthCardKit_static"]
+        ),
+        .library(
+            name:"SciendisHealthCardKit",
+            type: .static,
+            targets: ["SciendisHealthCardKit"]
         )
     ],
     dependencies: [
@@ -68,6 +73,10 @@ let package = Package(
             name: "Helper_static",
             path: "Sources/Helper"
         ),
+        .binaryTarget(
+            name: "SciendisHealthCardKit",
+            path: "xcframeworks/SciendisHealthCardKit.xcframework"
+        )
 
     ]
 )
