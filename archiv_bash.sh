@@ -17,13 +17,13 @@
 
 
 
-xcodebuild -create-xcframework -archive "./archives/Helper_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/Helper.framework  -output xcframeworks2/Helper_iOS.xcframework
+xcodebuild -create-xcframework -archive "./archives/Helper_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/Helper.framework  -output xcframeworks2/Helper.xcframework
 
 xcodebuild -create-xcframework -archive "./archives/CardReaderProviderApi_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/CardReaderProviderApi.framework  -output xcframeworks2/CardReaderProviderApi.xcframework
 
 xcodebuild -create-xcframework -archive "./archives/CardReaderAccess_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/CardReaderAccess.framework  -output xcframeworks2/CardReaderAccess.xcframework
 
-xcodebuild -create-xcframework -archive "./archives/HealthCardAccess_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/HealthCardAccess_iOS.framework  -output xcframeworks2/HealthCardAccess.xcframework
+xcodebuild -create-xcframework -archive "./archives/HealthCardAccess_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/HealthCardAccess.framework  -output xcframeworks2/HealthCardAccess.xcframework
 
 xcodebuild -create-xcframework -archive "./archives/HealthCardControl_iOS.xcarchive" -framework /Users/priskakohnen/Library/Developer/Xcode/DerivedData/OpenHealthCardKit-ahpfzjgiwnykfbfydabudiqqdkkv/Build/Products/Debug-iphoneos/HealthCardControl.framework  -output xcframeworks2/HealthCardControl.xcframework
 
