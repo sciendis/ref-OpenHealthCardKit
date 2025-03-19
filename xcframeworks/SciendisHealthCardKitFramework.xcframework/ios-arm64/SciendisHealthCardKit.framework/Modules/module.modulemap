@@ -1,0 +1,6 @@
+framework module SciendisHealthCardKit {
+  umbrella header "SciendisHealthCardKit.h"
+  export *
+
+  module * { export * }
+}

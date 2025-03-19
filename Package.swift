@@ -12,12 +12,8 @@ let package = Package(
         .library(
             name:"SciendisHealthCardKit",
             type: .static,
-            targets: ["SciendisHealthCardKit_static"]
-        ),
-        .library(
-            name:"SciendisHealthCardKit",
-            type: .static,
-            targets: ["SciendisHealthCardKit"]
+            targets: ["SciendisHealthCardKit_static",
+           "SciendisHealthCardKitFramework"]
         )
     ],
     dependencies: [
@@ -74,8 +70,8 @@ let package = Package(
             path: "Sources/Helper"
         ),
         .binaryTarget(
-            name: "SciendisHealthCardKit",
-            path: "xcframeworks/SciendisHealthCardKit.xcframework"
+            name: "SciendisHealthCardKitFramework",
+            path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"
         )
 
     ]

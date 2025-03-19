@@ -1,0 +1,72 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SciendisHealthCardKit",
+    "printedName": "SciendisHealthCardKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Helper",
+        "printedName": "Helper",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderAccess",
+        "printedName": "CardReaderAccess",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthCardAccess",
+        "printedName": "HealthCardAccess",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "HealthCardControl",
+        "printedName": "HealthCardControl",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NFCCardReaderProvider",
+        "printedName": "NFCCardReaderProvider",
+        "declKind": "Import",
+        "moduleName": "SciendisHealthCardKit",
+        "declAttributes": [
+          "Exported"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
