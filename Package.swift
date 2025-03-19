@@ -25,6 +25,10 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
     ],
     targets: [
+        .binaryTarget(
+            name: "SciendisHealthCardKitFramework",
+            path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"
+        ),
         .target(
             name: "SciendisHealthCardKit_static",
             dependencies: [
@@ -71,11 +75,6 @@ let package = Package(
         .target(
             name: "Helper_static",
             path: "Sources/Helper"
-        ),
-        .binaryTarget(
-            name: "SciendisHealthCardKitFramework",
-            path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"
         )
-
     ]
 )
