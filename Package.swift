@@ -17,6 +17,34 @@ let package = Package(
         .library(
             name:"SciendisHealthCardKitFramework",
             targets: ["SciendisHealthCardKitFramework"]
+        ),
+        .library(
+            name:"Helper",
+            targets: ["Helper"]
+        ),
+        .library(
+            name:"CardReaderProviderApi",
+            targets: ["CardReaderProviderApi"]
+        ),
+        .library(
+            name:"CardReaderAccess",
+            targets: ["CardReaderAccess"]
+        ),
+        .library(
+            name:"HealthCardAccess",
+            targets: ["HealthCardAccess"]
+        ),
+        .library(
+            name:"HealthCardControl",
+            targets: ["HealthCardControl"]
+        ),
+        .library(
+            name:"NFCCardReaderProvider",
+            targets: ["NFCCardReaderProvider"]
+        ),
+        .library(
+            name:"SciendisHealthCardKitFramework",
+            targets: ["SciendisHealthCardKitFramework"]
         )
     ],
     dependencies: [
@@ -25,6 +53,30 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
     ],
     targets: [
+        .binaryTarget(
+            name: "Helper",
+            path: "xcframeworks2/Helper.xcframework"
+        ),
+        .binaryTarget(
+            name: "CardReaderProviderApi",
+            path: "xcframeworks2/CardReaderProviderApi.xcframework"
+        ),
+        .binaryTarget(
+            name: "CardReaderAccess",
+            path: "xcframeworks2/CardReaderAccess.xcframework"
+        ),
+        .binaryTarget(
+            name: "HealthCardAccess",
+            path: "xcframeworks2/HealthCardAccess.xcframework"
+        ),
+        .binaryTarget(
+            name: "HealthCardControl",
+            path: "xcframeworks2/HealthCardControl.xcframework"
+        ),
+        .binaryTarget(
+            name: "NFCCardReaderProvider",
+            path: "xcframeworks2/NFCCardReaderProvider.xcframework"
+        ),
         .binaryTarget(
             name: "SciendisHealthCardKitFramework",
             path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"

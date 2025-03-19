@@ -1,0 +1,3871 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "NFCCardReaderProvider",
+    "printedName": "NFCCardReaderProvider",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CoreNFCError",
+        "printedName": "CoreNFCError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tagConnectionLost",
+            "printedName": "tagConnectionLost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO17tagConnectionLostyACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO17tagConnectionLostyACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "sessionTimeout",
+            "printedName": "sessionTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO14sessionTimeoutyACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO14sessionTimeoutyACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "sessionInvalidated",
+            "printedName": "sessionInvalidated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO18sessionInvalidatedyACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO18sessionInvalidatedyACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "userCanceled",
+            "printedName": "userCanceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO12userCanceledyACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO12userCanceledyACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedFeature",
+            "printedName": "unsupportedFeature",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO18unsupportedFeatureyACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO18unsupportedFeatureyACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "other",
+            "printedName": "other",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCReaderError) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCReaderError",
+                        "printedName": "CoreNFC.NFCReaderError",
+                        "usr": "s:SC14NFCReaderErrorLeV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO5otheryACSC14NFCReaderErrorLeVcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO5otheryACSC14NFCReaderErrorLeVcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.CoreNFCError.Type) -> (any Swift.Error) -> NFCCardReaderProvider.CoreNFCError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> NFCCardReaderProvider.CoreNFCError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.CoreNFCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO7unknownyACs5Error_pcACmF",
+            "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO7unknownyACs5Error_pcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "fixedbinaryorder": 6
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO",
+        "mangledName": "$s21NFCCardReaderProvider12CoreNFCErrorO",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl",
+          "Frozen"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "HealthCardAccess",
+        "printedName": "HealthCardAccess",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCCard",
+        "printedName": "NFCCard",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isoTag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFCCard",
+                "printedName": "NFCCardReaderProvider.NFCCard",
+                "usr": "s:21NFCCardReaderProvider0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCISO7816Tag",
+                "printedName": "any CoreNFC.NFCISO7816Tag",
+                "usr": "c:objc(pl)NFCISO7816Tag"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NFCCardReaderProvider0A0C6isoTagACSo010NFCISO7816E0_p_tcfc",
+            "mangledName": "$s21NFCCardReaderProvider0A0C6isoTagACSo010NFCISO7816E0_p_tcfc",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "atr",
+            "printedName": "atr",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A0C3atr10Foundation4DataVvp",
+            "mangledName": "$s21NFCCardReaderProvider0A0C3atr10Foundation4DataVvp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A0C3atr10Foundation4DataVvg",
+                "mangledName": "$s21NFCCardReaderProvider0A0C3atr10Foundation4DataVvg",
+                "moduleName": "NFCCardReaderProvider",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "protocol",
+            "printedName": "protocol",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardProtocol",
+                "printedName": "CardReaderProviderApi.CardProtocol",
+                "usr": "s:21CardReaderProviderApi0A8ProtocolV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A0C8protocol04CardbC3Api0E8ProtocolVvp",
+            "mangledName": "$s21NFCCardReaderProvider0A0C8protocol04CardbC3Api0E8ProtocolVvp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardProtocol",
+                    "printedName": "CardReaderProviderApi.CardProtocol",
+                    "usr": "s:21CardReaderProviderApi0A8ProtocolV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A0C8protocol04CardbC3Api0E8ProtocolVvg",
+                "mangledName": "$s21NFCCardReaderProvider0A0C8protocol04CardbC3Api0E8ProtocolVvg",
+                "moduleName": "NFCCardReaderProvider",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "openBasicChannel",
+            "printedName": "openBasicChannel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardChannelType",
+                "printedName": "any CardReaderProviderApi.CardChannelType",
+                "usr": "s:21CardReaderProviderApi0A11ChannelTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A0C16openBasicChannel04CardbC3Api0gF4Type_pyKF",
+            "mangledName": "$s21NFCCardReaderProvider0A0C16openBasicChannel04CardbC3Api0gF4Type_pyKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openLogicChannel",
+            "printedName": "openLogicChannel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardChannelType",
+                "printedName": "any CardReaderProviderApi.CardChannelType",
+                "usr": "s:21CardReaderProviderApi0A11ChannelTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A0C16openLogicChannel04CardbC3Api0gF4Type_pyKF",
+            "mangledName": "$s21NFCCardReaderProvider0A0C16openLogicChannel04CardbC3Api0gF4Type_pyKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openLogicChannelAsync",
+            "printedName": "openLogicChannelAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardChannelType",
+                "printedName": "any CardReaderProviderApi.CardChannelType",
+                "usr": "s:21CardReaderProviderApi0A11ChannelTypeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A0C21openLogicChannelAsync04CardbC3Api0hF4Type_pyYaKF",
+            "mangledName": "$s21NFCCardReaderProvider0A0C21openLogicChannelAsync04CardbC3Api0hF4Type_pyYaKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialApplicationIdentifier",
+            "printedName": "initialApplicationIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A0C28initialApplicationIdentifier10Foundation4DataVSgyKF",
+            "mangledName": "$s21NFCCardReaderProvider0A0C28initialApplicationIdentifier10Foundation4DataVSgyKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "disconnect",
+            "printedName": "disconnect(reset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A0C10disconnect5resetySb_tKF",
+            "mangledName": "$s21NFCCardReaderProvider0A0C10disconnect5resetySb_tKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A0C11descriptionSSvp",
+            "mangledName": "$s21NFCCardReaderProvider0A0C11descriptionSSvp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A0C11descriptionSSvg",
+                "mangledName": "$s21NFCCardReaderProvider0A0C11descriptionSSvg",
+                "moduleName": "NFCCardReaderProvider",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NFCCardReaderProvider0A0C",
+        "mangledName": "$s21NFCCardReaderProvider0A0C",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CardType",
+            "printedName": "CardType",
+            "usr": "s:21CardReaderProviderApi0A4TypeP",
+            "mangledName": "$s21CardReaderProviderApi0A4TypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Helper",
+        "printedName": "Helper",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCCardChannel",
+        "printedName": "NFCCardChannel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "maxMessageLength",
+            "printedName": "maxMessageLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC16maxMessageLengthSivp",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC16maxMessageLengthSivp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC16maxMessageLengthSivg",
+                "mangledName": "$s21NFCCardReaderProvider0A7ChannelC16maxMessageLengthSivg",
+                "moduleName": "NFCCardReaderProvider",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxResponseLength",
+            "printedName": "maxResponseLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC17maxResponseLengthSivp",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC17maxResponseLengthSivp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC17maxResponseLengthSivg",
+                "mangledName": "$s21NFCCardReaderProvider0A7ChannelC17maxResponseLengthSivg",
+                "moduleName": "NFCCardReaderProvider",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "channelNumber",
+            "printedName": "channelNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC13channelNumberSivp",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC13channelNumberSivp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC13channelNumberSivg",
+                "mangledName": "$s21NFCCardReaderProvider0A7ChannelC13channelNumberSivg",
+                "moduleName": "NFCCardReaderProvider",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "extendedLengthSupported",
+            "printedName": "extendedLengthSupported",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC23extendedLengthSupportedSbvp",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC23extendedLengthSupportedSbvp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC23extendedLengthSupportedSbvg",
+                "mangledName": "$s21NFCCardReaderProvider0A7ChannelC23extendedLengthSupportedSbvg",
+                "moduleName": "NFCCardReaderProvider",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(card:tag:channelNo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFCCardChannel",
+                "printedName": "NFCCardReaderProvider.NFCCardChannel",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCCard",
+                "printedName": "NFCCardReaderProvider.NFCCard",
+                "usr": "s:21NFCCardReaderProvider0A0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCISO7816Tag",
+                "printedName": "any CoreNFC.NFCISO7816Tag",
+                "usr": "c:objc(pl)NFCISO7816Tag"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC4card3tag9channelNoAcA0A0C_So13NFCISO7816Tag_pSitcfc",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC4card3tag9channelNoAcA0A0C_So13NFCISO7816Tag_pSitcfc",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardType",
+                "printedName": "any CardReaderProviderApi.CardType",
+                "usr": "s:21CardReaderProviderApi0A4TypeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC4card04CardbC3Api0F4Type_pvp",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC4card04CardbC3Api0F4Type_pvp",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "any CardReaderProviderApi.CardType",
+                    "usr": "s:21CardReaderProviderApi0A4TypeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7ChannelC4card04CardbC3Api0F4Type_pvg",
+                "mangledName": "$s21NFCCardReaderProvider0A7ChannelC4card04CardbC3Api0F4Type_pvg",
+                "moduleName": "NFCCardReaderProvider",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "transmitPublisher",
+            "printedName": "transmitPublisher(command:writeTimeout:readTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseType",
+                "printedName": "any CardReaderProviderApi.ResponseType",
+                "usr": "s:21CardReaderProviderApi12ResponseTypeP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommandType",
+                "printedName": "any CardReaderProviderApi.CommandType",
+                "usr": "s:21CardReaderProviderApi11CommandTypeP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC17transmitPublisher7command12writeTimeout04readI004CardbC3Api12ResponseType_pAH07CommandN0_p_S2dtKF",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC17transmitPublisher7command12writeTimeout04readI004CardbC3Api12ResponseType_pAH07CommandN0_p_S2dtKF",
+            "moduleName": "NFCCardReaderProvider",
+            "deprecated": true,
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transmitAsync",
+            "printedName": "transmitAsync(command:writeTimeout:readTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ResponseType",
+                "printedName": "any CardReaderProviderApi.ResponseType",
+                "usr": "s:21CardReaderProviderApi12ResponseTypeP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CommandType",
+                "printedName": "any CardReaderProviderApi.CommandType",
+                "usr": "s:21CardReaderProviderApi11CommandTypeP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC13transmitAsync7command12writeTimeout04readI004CardbC3Api12ResponseType_pAH07CommandN0_p_S2dtYaKF",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC13transmitAsync7command12writeTimeout04readI004CardbC3Api12ResponseType_pAH07CommandN0_p_S2dtYaKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closePublisher",
+            "printedName": "closePublisher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC14closePublisheryyKF",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC14closePublisheryyKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeAsync",
+            "printedName": "closeAsync()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7ChannelC10closeAsyncyyYaKF",
+            "mangledName": "$s21NFCCardReaderProvider0A7ChannelC10closeAsyncyyYaKF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NFCCardReaderProvider0A7ChannelC",
+        "mangledName": "$s21NFCCardReaderProvider0A7ChannelC",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CardChannelType",
+            "printedName": "CardChannelType",
+            "usr": "s:21CardReaderProviderApi0A11ChannelTypeP",
+            "mangledName": "$s21CardReaderProviderApi0A11ChannelTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCCardError",
+        "printedName": "NFCCardError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nfcTag",
+            "printedName": "nfcTag",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCCardError.Type) -> (NFCCardReaderProvider.CoreNFCError) -> NFCCardReaderProvider.NFCCardError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NFCCardReaderProvider.CoreNFCError) -> NFCCardReaderProvider.NFCCardError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: NFCCardReaderProvider.CoreNFCError)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CoreNFCError",
+                            "printedName": "NFCCardReaderProvider.CoreNFCError",
+                            "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCCardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider0A5ErrorO6nfcTagyAcA12CoreNFCErrorO_tcACmF",
+            "mangledName": "$s21NFCCardReaderProvider0A5ErrorO6nfcTagyAcA12CoreNFCErrorO_tcACmF",
+            "moduleName": "NFCCardReaderProvider"
+          },
+          {
+            "kind": "Var",
+            "name": "noCardPresent",
+            "printedName": "noCardPresent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCCardError.Type) -> NFCCardReaderProvider.NFCCardError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCCardError",
+                    "printedName": "NFCCardReaderProvider.NFCCardError",
+                    "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCCardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider0A5ErrorO13noCardPresentyA2CmF",
+            "mangledName": "$s21NFCCardReaderProvider0A5ErrorO13noCardPresentyA2CmF",
+            "moduleName": "NFCCardReaderProvider"
+          },
+          {
+            "kind": "Var",
+            "name": "transferException",
+            "printedName": "transferException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCCardError.Type) -> (Swift.String) -> NFCCardReaderProvider.NFCCardError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> NFCCardReaderProvider.NFCCardError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(name: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCCardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider0A5ErrorO17transferExceptionyACSS_tcACmF",
+            "mangledName": "$s21NFCCardReaderProvider0A5ErrorO17transferExceptionyACSS_tcACmF",
+            "moduleName": "NFCCardReaderProvider"
+          },
+          {
+            "kind": "Var",
+            "name": "sendTimeout",
+            "printedName": "sendTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCCardError.Type) -> NFCCardReaderProvider.NFCCardError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCCardError",
+                    "printedName": "NFCCardReaderProvider.NFCCardError",
+                    "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCCardError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardError",
+                        "printedName": "NFCCardReaderProvider.NFCCardError",
+                        "usr": "s:21NFCCardReaderProvider0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider0A5ErrorO11sendTimeoutyA2CmF",
+            "mangledName": "$s21NFCCardReaderProvider0A5ErrorO11sendTimeoutyA2CmF",
+            "moduleName": "NFCCardReaderProvider"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21NFCCardReaderProvider0A5ErrorO",
+        "mangledName": "$s21NFCCardReaderProvider0A5ErrorO",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "HealthCardAccess",
+        "printedName": "HealthCardAccess",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "HealthCardControl",
+        "printedName": "HealthCardControl",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCHealthCardSession",
+        "printedName": "NFCHealthCardSession",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(pollingOption:on:messages:can:operation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "NFCCardReaderProvider.NFCHealthCardSession<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCHealthCardSession",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSession<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PollingOption",
+                "printedName": "CoreNFC.NFCTagReaderSession.PollingOption",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NFCPollingOption"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Messages",
+                "printedName": "NFCCardReaderProvider.NFCHealthCardSession<τ_0_0>.Messages",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any NFCCardReaderProvider.NFCHealthCardSessionHandle) async throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCHealthCardSessionHandle",
+                    "printedName": "any NFCCardReaderProvider.NFCHealthCardSessionHandle",
+                    "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC13pollingOption2on8messages3can9operationACyxGSgSo010NFCPollingH0V_So17OS_dispatch_queueCAC8MessagesVyx_GSSxAA0deF6Handle_pYaKctcfc",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC13pollingOption2on8messages3can9operationACyxGSgSo010NFCPollingH0V_So17OS_dispatch_queueCAC8MessagesVyx_GSSxAA0deF6Handle_pYaKctcfc",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "executeOperation",
+            "printedName": "executeOperation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC16executeOperationxyYaKF",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC16executeOperationxyYaKF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateSession",
+            "printedName": "invalidateSession(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC010invalidateF04withySSSg_tF",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC010invalidateF04withySSSg_tF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSessionDidBecomeActive",
+            "printedName": "tagReaderSessionDidBecomeActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF15DidBecomeActiveyySo06NFCTagbF0CF",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF15DidBecomeActiveyySo06NFCTagbF0CF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSession",
+            "printedName": "tagReaderSession(_:didInvalidateWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF0_22didInvalidateWithErrorySo06NFCTagbF0C_s0K0_ptF",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF0_22didInvalidateWithErrorySo06NFCTagbF0C_s0K0_ptF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSession",
+            "printedName": "tagReaderSession(_:didDetect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreNFC.NFCTag]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCTag",
+                    "printedName": "CoreNFC.NFCTag",
+                    "usr": "s:7CoreNFC6NFCTagO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF0_9didDetectySo06NFCTagbF0C_Say7CoreNFC0J0OGtF",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC03tagbF0_9didDetectySo06NFCTagbF0C_Say7CoreNFC0J0OGtF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFCHealthCardSession",
+                "printedName": "NFCCardReaderProvider.NFCHealthCardSession<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionCACyxGycfc",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionCACyxGycfc",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Messages",
+            "printedName": "Messages",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "discoveryMessage",
+                "printedName": "discoveryMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "connectMessage",
+                "printedName": "connectMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV14connectMessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV14connectMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV14connectMessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV14connectMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "secureChannelMessage",
+                "printedName": "secureChannelMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20secureChannelMessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20secureChannelMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20secureChannelMessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20secureChannelMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "noCardMessage",
+                "printedName": "noCardMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV02noE7MessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV02noE7MessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV02noE7MessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV02noE7MessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "multipleCardsMessage",
+                "printedName": "multipleCardsMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20multipleCardsMessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20multipleCardsMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20multipleCardsMessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV20multipleCardsMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedCardMessage",
+                "printedName": "unsupportedCardMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV011unsupportedE7MessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV011unsupportedE7MessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV011unsupportedE7MessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV011unsupportedE7MessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "connectionErrorMessage",
+                "printedName": "connectionErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV22connectionErrorMessageSSvp",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV22connectionErrorMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV22connectionErrorMessageSSvg",
+                    "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV22connectionErrorMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "genericSig": "<τ_0_0>",
+                    "sugared_genericSig": "<Output>",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(discoveryMessage:connectMessage:secureChannelMessage:noCardMessage:multipleCardsMessage:unsupportedCardMessage:connectionErrorMessage:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Messages",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSession<τ_0_0>.Messages",
+                    "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessage07connectI0013secureChannelI002noeI0013multipleCardsI0011unsupportedeI0015connectionErrorI0AEyx_GSS_S6Stcfc",
+                "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV16discoveryMessage07connectI0013secureChannelI002noeI0013multipleCardsI0011unsupportedeI0015connectionErrorI0AEyx_GSS_S6Stcfc",
+                "moduleName": "NFCCardReaderProvider",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Output>",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV",
+            "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC8MessagesV",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Output>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21NFCCardReaderProvider20NFCHealthCardSessionC",
+        "mangledName": "$s21NFCCardReaderProvider20NFCHealthCardSessionC",
+        "moduleName": "NFCCardReaderProvider",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Output>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NFCTagReaderSessionDelegate",
+            "printedName": "NFCTagReaderSessionDelegate",
+            "usr": "s:7CoreNFC27NFCTagReaderSessionDelegateP",
+            "mangledName": "$s7CoreNFC27NFCTagReaderSessionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCHealthCardSessionError",
+        "printedName": "NFCHealthCardSessionError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "couldNotInitializeSession",
+            "printedName": "couldNotInitializeSession",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCHealthCardSessionError",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO018couldNotInitializeF0yA2CmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO018couldNotInitializeF0yA2CmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unsupportedTag",
+            "printedName": "unsupportedTag",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCHealthCardSessionError",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO14unsupportedTagyA2CmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO14unsupportedTagyA2CmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "coreNFC",
+            "printedName": "coreNFC",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> (NFCCardReaderProvider.CoreNFCError) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NFCCardReaderProvider.CoreNFCError) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CoreNFCError",
+                        "printedName": "NFCCardReaderProvider.CoreNFCError",
+                        "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO7coreNFCyAcA12CoreNFCErrorOcACmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO7coreNFCyAcA12CoreNFCErrorOcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongCAN",
+            "printedName": "wrongCAN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCHealthCardSessionError",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO8wrongCANyA2CmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO8wrongCANyA2CmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "establishingSecureChannel",
+            "printedName": "establishingSecureChannel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> (any Swift.Error) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO25establishingSecureChannelyACs0G0_pcACmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO25establishingSecureChannelyACs0G0_pcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "operation",
+            "printedName": "operation",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCCardReaderProvider.NFCHealthCardSessionError.Type) -> (any Swift.Error) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> NFCCardReaderProvider.NFCHealthCardSessionError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCHealthCardSessionError",
+                        "printedName": "NFCCardReaderProvider.NFCHealthCardSessionError",
+                        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO9operationyACs0G0_pcACmF",
+            "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO9operationyACs0G0_pcACmF",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21NFCCardReaderProvider25NFCHealthCardSessionErrorO",
+        "mangledName": "$s21NFCCardReaderProvider25NFCHealthCardSessionErrorO",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCHealthCardSessionHandle",
+        "printedName": "NFCHealthCardSessionHandle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateAlert",
+            "printedName": "updateAlert(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP11updateAlert7messageySS_tF",
+            "mangledName": "$s21NFCCardReaderProvider26NFCHealthCardSessionHandleP11updateAlert7messageySS_tF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+            "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateSession",
+            "printedName": "invalidateSession(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP010invalidateF04withySSSg_tF",
+            "mangledName": "$s21NFCCardReaderProvider26NFCHealthCardSessionHandleP010invalidateF04withySSSg_tF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+            "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HealthCardType",
+                "printedName": "any HealthCardAccess.HealthCardType",
+                "usr": "s:16HealthCardAccess0aB4TypeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP4card06HealthE6Access0iE4Type_pvp",
+            "mangledName": "$s21NFCCardReaderProvider26NFCHealthCardSessionHandleP4card06HealthE6Access0iE4Type_pvp",
+            "moduleName": "NFCCardReaderProvider",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HealthCardType",
+                    "printedName": "any HealthCardAccess.HealthCardType",
+                    "usr": "s:16HealthCardAccess0aB4TypeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP4card06HealthE6Access0iE4Type_pvg",
+                "mangledName": "$s21NFCCardReaderProvider26NFCHealthCardSessionHandleP4card06HealthE6Access0iE4Type_pvg",
+                "moduleName": "NFCCardReaderProvider",
+                "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+                "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCHealthCardSessionHandle>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21NFCCardReaderProvider26NFCHealthCardSessionHandleP",
+        "mangledName": "$s21NFCCardReaderProvider26NFCHealthCardSessionHandleP",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CardReaderProviderApi",
+        "printedName": "CardReaderProviderApi",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "NFCCardReaderProvider"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCCardSession",
+        "printedName": "NFCCardSession",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updateAlert",
+            "printedName": "updateAlert(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7SessionP11updateAlert7messageySS_tF",
+            "mangledName": "$s21NFCCardReaderProvider0A7SessionP11updateAlert7messageySS_tF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCCardSession>",
+            "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCCardSession>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidateSession",
+            "printedName": "invalidateSession(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21NFCCardReaderProvider0A7SessionP010invalidateD04withySSSg_tF",
+            "mangledName": "$s21NFCCardReaderProvider0A7SessionP010invalidateD04withySSSg_tF",
+            "moduleName": "NFCCardReaderProvider",
+            "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCCardSession>",
+            "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCCardSession>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CardType",
+                "printedName": "any CardReaderProviderApi.CardType",
+                "usr": "s:21CardReaderProviderApi0A4TypeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21NFCCardReaderProvider0A7SessionP4card04CardbC3Api0F4Type_pvp",
+            "mangledName": "$s21NFCCardReaderProvider0A7SessionP4card04CardbC3Api0F4Type_pvp",
+            "moduleName": "NFCCardReaderProvider",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CardType",
+                    "printedName": "any CardReaderProviderApi.CardType",
+                    "usr": "s:21CardReaderProviderApi0A4TypeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21NFCCardReaderProvider0A7SessionP4card04CardbC3Api0F4Type_pvg",
+                "mangledName": "$s21NFCCardReaderProvider0A7SessionP4card04CardbC3Api0F4Type_pvg",
+                "moduleName": "NFCCardReaderProvider",
+                "genericSig": "<τ_0_0 where τ_0_0 : NFCCardReaderProvider.NFCCardSession>",
+                "sugared_genericSig": "<Self where Self : NFCCardReaderProvider.NFCCardSession>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21NFCCardReaderProvider0A7SessionP",
+        "mangledName": "$s21NFCCardReaderProvider0A7SessionP",
+        "moduleName": "NFCCardReaderProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NFCTagReaderSession",
+        "printedName": "NFCTagReaderSession",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "couldNotInitializeSession",
+                "printedName": "couldNotInitializeSession",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCTagReaderSession.Error.Type) -> CoreNFC.NFCTagReaderSession.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                        "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO018couldNotInitializeC0yA2EmF",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO018couldNotInitializeC0yA2EmF",
+                "moduleName": "NFCCardReaderProvider"
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedTag",
+                "printedName": "unsupportedTag",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCTagReaderSession.Error.Type) -> CoreNFC.NFCTagReaderSession.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                        "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO14unsupportedTagyA2EmF",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO14unsupportedTagyA2EmF",
+                "moduleName": "NFCCardReaderProvider"
+              },
+              {
+                "kind": "Var",
+                "name": "nfcTag",
+                "printedName": "nfcTag",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreNFC.NFCTagReaderSession.Error.Type) -> (NFCCardReaderProvider.CoreNFCError) -> CoreNFC.NFCTagReaderSession.Error",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(NFCCardReaderProvider.CoreNFCError) -> CoreNFC.NFCTagReaderSession.Error",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(error: NFCCardReaderProvider.CoreNFCError)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "CoreNFCError",
+                                "printedName": "NFCCardReaderProvider.CoreNFCError",
+                                "usr": "s:21NFCCardReaderProvider12CoreNFCErrorO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO6nfcTagyAeC12CoreNFCErrorO_tcAEmF",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO6nfcTagyAeC12CoreNFCErrorO_tcAEmF",
+                "moduleName": "NFCCardReaderProvider"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO",
+            "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Publisher",
+            "printedName": "Publisher",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "receive",
+                "printedName": "receive(subscriber:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE9PublisherV7receive10subscriberyx_t7Combine10SubscriberRzAbCE5ErrorO7FailureRtzAC0dC0_p5InputRtzlF",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE9PublisherV7receive10subscriberyx_t7Combine10SubscriberRzAbCE5ErrorO7FailureRtzAC0dC0_p5InputRtzlF",
+                "moduleName": "NFCCardReaderProvider",
+                "genericSig": "<τ_0_0 where τ_0_0 : Combine.Subscriber, τ_0_0.Failure == CoreNFC.NFCTagReaderSession.Error, τ_0_0.Input == any NFCCardReaderProvider.NFCCardSession>",
+                "sugared_genericSig": "<S where S : Combine.Subscriber, S.Failure == CoreNFC.NFCTagReaderSession.Error, S.Input == any NFCCardReaderProvider.NFCCardSession>",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE9PublisherV",
+            "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE9PublisherV",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Publisher",
+                "printedName": "Publisher",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Output",
+                    "printedName": "Output",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCardSession",
+                        "printedName": "any NFCCardReaderProvider.NFCCardSession",
+                        "usr": "s:21NFCCardReaderProvider0A7SessionP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Failure",
+                    "printedName": "Failure",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "CoreNFC.NFCTagReaderSession.Error",
+                        "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE5ErrorO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7Combine9PublisherP",
+                "mangledName": "$s7Combine9PublisherP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Messages",
+            "printedName": "Messages",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "discoveryMessage",
+                "printedName": "discoveryMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "connectMessage",
+                "printedName": "connectMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV14connectMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV14connectMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV14connectMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV14connectMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "noCardMessage",
+                "printedName": "noCardMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV13noCardMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV13noCardMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV13noCardMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV13noCardMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "multipleCardsMessage",
+                "printedName": "multipleCardsMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV20multipleCardsMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV20multipleCardsMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV20multipleCardsMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV20multipleCardsMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unsupportedCardMessage",
+                "printedName": "unsupportedCardMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22unsupportedCardMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22unsupportedCardMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22unsupportedCardMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22unsupportedCardMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "connectionErrorMessage",
+                "printedName": "connectionErrorMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22connectionErrorMessageSSvp",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22connectionErrorMessageSSvp",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22connectionErrorMessageSSvg",
+                    "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV22connectionErrorMessageSSvg",
+                    "moduleName": "NFCCardReaderProvider",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(discoveryMessage:connectMessage:noCardMessage:multipleCardsMessage:unsupportedCardMessage:connectionErrorMessage:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Messages",
+                    "printedName": "CoreNFC.NFCTagReaderSession.Messages",
+                    "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessage07connectH006noCardH0013multipleCardsH0011unsupportedkH0015connectionErrorH0AESS_S5Stcfc",
+                "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV16discoveryMessage07connectH006noCardH0013multipleCardsH0011unsupportedkH0015connectionErrorH0AESS_S5Stcfc",
+                "moduleName": "NFCCardReaderProvider",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV",
+            "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV",
+            "moduleName": "NFCCardReaderProvider",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "publisher",
+            "printedName": "publisher(for:on:messages:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "CoreNFC.NFCTagReaderSession.Publisher",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE9PublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PollingOption",
+                "printedName": "CoreNFC.NFCTagReaderSession.PollingOption",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NFCPollingOption"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Messages",
+                "printedName": "CoreNFC.NFCTagReaderSession.Messages",
+                "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE8MessagesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So19NFCTagReaderSessionC07NFCCardB8ProviderE9publisher3for2on8messagesAbCE9PublisherVSo16NFCPollingOptionV_So17OS_dispatch_queueCAbCE8MessagesVtFZ",
+            "mangledName": "$sSo19NFCTagReaderSessionC07NFCCardB8ProviderE9publisher3for2on8messagesAbCE9PublisherVSo16NFCPollingOptionV_So17OS_dispatch_queueCAbCE8MessagesVtFZ",
+            "moduleName": "NFCCardReaderProvider",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NFCTagReaderSession",
+        "moduleName": "CoreNFC",
+        "isOpen": true,
+        "intro_iOS": "13.0",
+        "objc_name": "NFCTagReaderSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NFCReaderSession",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreNFC.NFCReaderSession",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/Data+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 910,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/Data+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 924,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/Data+Hex.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 26,
+      "value": "\"de.gematik.ti.ohcapp4ios\""
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 23,
+      "value": "\"nfcCardReaderProvider\""
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/NFCCardChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 7,
+      "value": "0x10000"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/NFCCardChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 835,
+      "length": 7,
+      "value": "0x10000"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/NFCCardChannel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 947,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/priskakohnen\/Work\/ref-OpenHealthCardKit\/Sources\/NFCCardReaderProvider\/Card\/NFCCardChannel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1055,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
