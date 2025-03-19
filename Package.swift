@@ -9,11 +9,11 @@ let package = Package(
         .macOS(.v12)
     ],
     products: [
-        .library(
-            name:"SciendisHealthCardKit",
-            type: .static,
-            targets: ["SciendisHealthCardKit_static"]
-        ),
+        //.library(
+         //   name:"SciendisHealthCardKit",
+           // type: .static,
+            //targets: ["SciendisHealthCardKit_static"]
+        //),
       //  .library(
       //      name:"SciendisHealthCardKitFramework",
       //      targets: ["SciendisHealthCardKitFramework"]
