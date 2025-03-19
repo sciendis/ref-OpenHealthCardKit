@@ -12,8 +12,11 @@ let package = Package(
         .library(
             name:"SciendisHealthCardKit",
             type: .static,
-            targets: ["SciendisHealthCardKit_static",
-           "SciendisHealthCardKitFramework"]
+            targets: ["SciendisHealthCardKit_static"]
+        ),
+        .library(
+            name:"SciendisHealthCardKitFramework",
+            targets: ["SciendisHealthCardKitFramework"]
         )
     ],
     dependencies: [
