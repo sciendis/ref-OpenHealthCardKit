@@ -14,10 +14,10 @@ let package = Package(
             type: .static,
             targets: ["SciendisHealthCardKit_static"]
         ),
-        .library(
-            name:"SciendisHealthCardKitFramework",
-            targets: ["SciendisHealthCardKitFramework"]
-        ),
+      //  .library(
+      //      name:"SciendisHealthCardKitFramework",
+      //      targets: ["SciendisHealthCardKitFramework"]
+      //  ),
         .library(
             name:"Helper",
             targets: ["Helper"]
@@ -41,10 +41,6 @@ let package = Package(
         .library(
             name:"NFCCardReaderProvider",
             targets: ["NFCCardReaderProvider"]
-        ),
-        .library(
-            name:"SciendisHealthCardKitFramework",
-            targets: ["SciendisHealthCardKitFramework"]
         )
     ],
     dependencies: [
@@ -77,10 +73,10 @@ let package = Package(
             name: "NFCCardReaderProvider",
             path: "xcframeworks2/NFCCardReaderProvider.xcframework"
         ),
-        .binaryTarget(
-            name: "SciendisHealthCardKitFramework",
-            path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"
-        ),
+        //.binaryTarget(
+         //   name: "SciendisHealthCardKitFramework",
+        //    path: "xcframeworks/SciendisHealthCardKitFramework.xcframework"
+        //),
         .target(
             name: "SciendisHealthCardKit_static",
             dependencies: [
