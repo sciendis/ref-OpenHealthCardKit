@@ -1,5 +1,6 @@
 // swift-tools-version: 5.8
 
+
 import PackageDescription
 
 let package = Package(
@@ -41,7 +42,9 @@ let package = Package(
         .library(
             name:"NFCCardReaderProvider",
             targets: ["NFCCardReaderProvider"]
-        )
+        ),
+        .library(name:"ASN1Kit", targets:["ASN1KitWrapper"]),
+        .library(name:"OpenSSL", targets:["OpenSSLWrapper"])
     ],
     dependencies: [
         .package(url: "https://github.com/gematik/ASN1Kit.git", from: "1.2.0"),
@@ -123,6 +126,16 @@ let package = Package(
         .target(
             name: "Helper_static",
             path: "Sources/Helper"
+        ),
+        .target(
+            name: "ASN1KitWrapper",
+            dependencies: ["ASN1Kit"] ,// Reference the dependency here
+            path: "Sources/ASN1KitWrapper"
+        ),
+        .target(
+            name: "OpenSSLWrapper",
+            dependencies: ["OpenSSL-Swift"]  ,// Reference the dependency here
+            path: "Sources/OpenSSLWrapper"
         )
     ]
 )
