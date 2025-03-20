@@ -43,8 +43,14 @@ let package = Package(
             name:"NFCCardReaderProvider",
             targets: ["NFCCardReaderProvider"]
         ),
-        .library(name:"ASN1Kit", targets:["ASN1KitWrapper"]),
-        .library(name:"OpenSSL", targets:["OpenSSLWrapper"])
+        .library(
+            name:"ASN1Kit",
+            targets:["ASN1KitWrapper"]
+        ),
+        .library(
+            name:"OpenSSL",
+            targets:["OpenSSLWrapper"]
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/gematik/ASN1Kit.git", from: "1.2.0"),
