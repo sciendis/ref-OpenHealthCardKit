@@ -44,11 +44,11 @@ let package = Package(
             targets: ["NFCCardReaderProvider"]
         ),
         .library(
-            name:"ASN1Kit",
+            name:"ASN1KitWrapper",
             targets:["ASN1KitWrapper"]
         ),
         .library(
-            name:"OpenSSL",
+            name:"OpenSSLWrapper",
             targets:["OpenSSLWrapper"]
         )
     ],
